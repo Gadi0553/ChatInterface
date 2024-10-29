@@ -1,0 +1,23 @@
+﻿#message-list {
+    max-height: 300px; /* Limita la altura de la lista de mensajes */
+    overflow-y: auto; /* Agrega un scroll vertical si es necesario */
+}
+
+.message-item {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el mensaje y los botones */
+    align-items: center; /* Centra verticalmente */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin: 5px 0;
+}
+
+    .message-item span {
+        flex-grow: 1; /* Hace que el texto del mensaje ocupe el espacio disponible */
+    }
+
+.edit-button, .delete-button {
+    margin-left: 10px;
+}
